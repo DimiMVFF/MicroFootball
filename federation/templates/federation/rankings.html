@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% extends 'federation/base.html' %}
+{% block content %}
+
+    <ul>
+        {% for nation in ranking %}
+
+            <li class="list-group-item"><img src="{{ nation.flag }}" height="25"> {{ nation }} <center> Points: {{ nation.score }}</center></li>
+
+        {% endfor %}
+    </ul>
+
+
+
+{% endblock %}

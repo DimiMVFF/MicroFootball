@@ -1,0 +1,14 @@
+{% extends 'federation/base.html' %}
+
+
+{% block content %}
+    <h2>List of Member-Nations</h2>
+    <ul class="list-group">
+        {% for nation in micronation %}
+
+                <li class="list-group-item"><img src="{{ nation.flag }}" height="25"> {{ nation }}</li>
+
+
+        {% endfor %}
+    </ul>
+{% endblock %}
