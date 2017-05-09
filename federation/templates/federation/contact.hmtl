@@ -1,0 +1,38 @@
+<html>
+<head>
+ <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        </head>
+   
+   <body>
+   <!--The titles-->
+     <div class="titles">
+     <h1>Contact page</h1>
+     <h2>Feel free to contact us!</h2>
+     </div>
+     <div class="content">
+     <!--This is just the text about the contact form.-->
+     <p>If you have any questions or ideas for us just fill the contact form below. <i>We will reply as soon as we can.</i></p>
+     <div class="form">
+     <h3>Contact form</h3>
+<p><b><mark>Be careful! You need to fill all of the fields!</mark></b></p>    
+<!--This is the contact form.-->
+<form>
+            Name:<br>
+            <input type="text">
+            <br>
+            Surname:<br>
+            <input type="text">
+            <br>
+            E-mail:<br>
+            <input type="email">
+            <br>
+            Your message:<br>
+            <input type="text">
+            <button type="submit">Send.</button>
+        </form>
+        
+        </div>
+       </div>
+     </body>
+   </hmtl>
